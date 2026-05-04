@@ -53,10 +53,9 @@ function App() {
         console.error('❌ Error loading images from API:', error)
         // Fallback to hardcoded list based on ACTUAL disk content
         setImages([
-          { id: 1, name: 'ACG-logo.png', folder: 'ACG', url: '/DISCORD/IMAGE/ACG/ACG-logo.png' },
-          { id: 2, name: 'acg-banner.png', folder: 'ACG', url: '/DISCORD/IMAGE/ACG/acg-banner.png' },
-          { id: 3, name: 'acg-wellcome.png', folder: 'ACG', url: '/DISCORD/IMAGE/ACG/acg-wellcome.png' },
-          { id: 4, name: 'acg-wellcome copy.png', folder: 'ACG', url: '/DISCORD/IMAGE/ACG/acg-wellcome%20copy.png' }
+          // { id: 1, name: 'ACG-logo.png', folder: 'ACG', url: '/DISCORD/IMAGE/ACG/ACG-logo.png' },
+          // { id: 2, name: 'acg-banner.png', folder: 'ACG', url: '/DISCORD/IMAGE/ACG/acg-banner.png' },
+          // { id: 3, name: 'acg-wellcome.png', folder: 'ACG', url: '/DISCORD/IMAGE/ACG/acg-wellcome.png' },
         ])
       } finally {
         setLoading(false)
